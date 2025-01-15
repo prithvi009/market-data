@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-proj"
+version = "0.1.0"
+description = ""
+authors = ["Prithviraj Awatade <96919987+prithvi009@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asyncpg = "^0.30.0"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+pydantic = "^2.10.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
