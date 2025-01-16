@@ -13,6 +13,7 @@ uvicorn = "^0.34.0"
 bs4 = "^0.0.2"
 requests = "^2.32.3"
 pydantic = "^2.10.5"
+yfinance = "^0.2.51"
 
 
 [build-system]
